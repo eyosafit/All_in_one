@@ -39,12 +39,11 @@ async def func_start(update: Update, context: ContextTypes.DEFAULT_TYPE):
         "I can help you to manage your group with lots of useful features!\n"
         "Feel free to add me to your group.\n\n"
         "<b>/help - for bot help</b>\n\n"
-        "<b>• Source code:</b> <a href='https://github.com/bishalqx980/tgbot'>GitHub</a>\n"
-        "<b>• Developer:</b> <a href='https://t.me/bishalqx980'>bishalqx980</a>"
+        "<b>• Developer:</b> <a href='https://t.me/Eyosafitelias'>Eyosafit</a>"
     )
 
-    if _bot_info.username != "MissCiri_bot":
-        msg += "\n\n<i>Cloned bot of @MissCiri_bot</i>"
+    if _bot_info.username != "at_all_inone_bot":
+        msg += "\n\n<i>Cloned bot of @at_all_inone_bot</i>"
 
     btn_name_1 = ["Add me to your Group"]
     btn_url_1 = [f"http://t.me/{_bot_info.username}?startgroup=start"]
